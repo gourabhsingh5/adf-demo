@@ -1,0 +1,9 @@
+{
+	"name": "gs-test-adf",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "12b66b5f-984f-4ad7-b19b-6c427c234ffd",
+		"tenantId": "8ee1e79c-85a8-40e1-9a5d-a13a38d39f83"
+	}
+}
