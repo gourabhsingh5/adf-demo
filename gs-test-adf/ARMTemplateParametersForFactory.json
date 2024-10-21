@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "gs-test-adf"
+		},
+		"AzureDataLakeStorageSource_accountKey": {
+			"value": ""
+		},
+		"SnowflakeTableTarget_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorageSource_properties_typeProperties_url": {
+			"value": "https://gsadlsaccount.dfs.core.windows.net/"
+		},
+		"SnowflakeTableTarget_properties_typeProperties_database": {
+			"value": "SALES_MART"
+		}
+	}
+}
